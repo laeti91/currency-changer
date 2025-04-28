@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="cash.js" defer></script>
+        <title>cash</title>
+    </head>
+
+    <body>
+        <div id="container">
+
+            <h1 class="fire_title">Currency Converter</h1>
+
+            <div id="converter-container">
+                <div id="entry_div" class="morice">
+                    <div class="buttons">
+                        <button class="butt_enter" data-devise="dollar">$</button>
+                        <button class="butt_enter" data-devise="euro">€</button>
+                        <button class="butt_enter" data-devise="livre">£</button>
+                        <button class="butt_enter" data-devise="bitcoin">&#8383;</button>
+                    </div>
+                    <input id="entry" type="number" autocomplete="off" placeholder="Please enter your currency exchange amount" name="name" />
+                </div>
+
+                <div id="output_div" class="morice">
+                    <div class="buttons">
+                        <button class="butt_output" data-devise="dollar">$</button>
+                        <button class="butt_output" data-devise="euro">€</button>
+                        <button class="butt_output" data-devise="livre">£</button>
+                        <button class="butt_output" data-devise="bitcoin">&#8383;</button>
+                    </div>
+                    <input type="number" disabled placeholder="" id="result"/>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
